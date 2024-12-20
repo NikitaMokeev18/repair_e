@@ -84,7 +84,7 @@ a {/*ссылки на страницы*/
 	text-shadow: 2px 2px 2px #000;
 }
 body { /*задний фон*/
-	background-image: url(img/bg1.jpg);
+	background-image: url(../img/bg1.jpg);
 	margin: 0;
 }
 .re{/*таблицы*/
@@ -206,12 +206,12 @@ a[href^="#1"]:hover{
 nav ul li {
 	/*иконки и анимация меню*/
 	transition: 0.3s;
-	list-style: url(img/images/icon.png);
+	list-style: url(../img/images/icon.png);
 }
 nav ul li:hover {
 	text-decoration: none;
 	transform: translate(10px);
-	list-style: url(img/images/mark2.png);
+	list-style: url(../img/images/mark2.png);
 }
 @media screen and (max-width:1000px) { /*Адаптивность сайта и медиа запросы*/
     .as {
@@ -222,7 +222,9 @@ nav ul li:hover {
         max-width: 1000px;
         margin-left: 0;
     }
-
+    .menu {
+        display: none;
+    }
     .fb {
         flex-wrap: wrap;
     }
